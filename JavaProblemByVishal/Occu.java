@@ -2,8 +2,6 @@ class Occu
 {
 public String check(String str )
 {
-String reversed=str.reverse().toString();
-return reversed;
 }
 
 public static void main(String args[])
