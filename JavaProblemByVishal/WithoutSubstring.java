@@ -5,23 +5,30 @@
 
 public class WithoutSubstring {
 
-	public String show(String str, int startIndex, int endIndex)
-	{
-		int len = str.length();
-		 String result="";
-	     for(int i=startIndex;i<endIndex;i++)
-	     {
-	    	     result+=str.charAt(i);
-	     }
-		
-	 return result;
-			 
+	public String show(String str, int startIndex, int endIndex) {
+		String result = "";
+		if (startIndex >= 0 && endIndex <= str.length())
+		{
+			int len = str.length();
+			for (int i = startIndex; i < endIndex; i++) 
+			{
+				result += str.charAt(i);
+			}
+
+		}
+		else {
+			System.out.println("invalid index");
+		}
+
+		return result;
+
 	}
+
 	
 	public static void main(String[] args) {
 		
 		WithoutSubstring ws = new WithoutSubstring();
-		String result=ws.show("helloworld", 2, 7);
+		String result=ws.show("helloworld", 2, 15);
 		System.out.println(result);
 	}
 
