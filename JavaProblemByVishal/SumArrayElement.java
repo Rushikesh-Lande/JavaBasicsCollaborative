@@ -1,3 +1,4 @@
+// sum of the array element ? 
 public class SumArrayElement {
 
 	public int sum(int arr[]) {
