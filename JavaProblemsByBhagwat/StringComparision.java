@@ -1,3 +1,4 @@
+//Write a program to compare two Strings in java 
 public class StringComparision
 {
 public static void  compareStrings()

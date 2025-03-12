@@ -1,3 +1,4 @@
+//Find the min element in an array
 public class MinArray{
 public static int minElement(int[]a ){
 int min =a[0];

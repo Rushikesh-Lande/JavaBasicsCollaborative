@@ -1,3 +1,4 @@
+//Write a program to count the Vowels in a given String 
 public class DemoVowels{
 public int vowelCounts(String str){
 int count =0;

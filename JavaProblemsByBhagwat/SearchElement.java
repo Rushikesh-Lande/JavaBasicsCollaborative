@@ -1,3 +1,4 @@
+//Write a program to find the Specific array in java 
 public class SearchElement{
 public boolean foundElement(int[]a,int key){
 boolean flag = false;

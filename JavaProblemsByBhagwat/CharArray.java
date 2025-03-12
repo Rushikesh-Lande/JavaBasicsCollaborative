@@ -1,3 +1,5 @@
+//Wtrite a program to convert String into an charArray
+
 public class CharArray{
 public static String convertString(String str){
 String st = "";

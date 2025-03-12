@@ -1,3 +1,4 @@
+//Write a program to print the specific Characters in the given string 
 import java.util.Scanner;
 public class WithoutSubString {
 public String  display(String str ,int a,int b){

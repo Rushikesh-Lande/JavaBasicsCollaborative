@@ -1,3 +1,4 @@
+// Find the Sum of all the elements in an array
 public class SumOfArrayElements
 {
 public int sumElements(int[]a){

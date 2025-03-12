@@ -1,3 +1,4 @@
+//find the max element in an array
 public class MaxArray{
 public int  findMax(int a[]){
 int max=a[0];
