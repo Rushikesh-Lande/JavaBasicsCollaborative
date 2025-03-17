@@ -1,4 +1,5 @@
- abstract class Vehicle {
+// how can we achive abstraction using abstract class?  
+abstract class Vehicle {
 
 	public abstract void start();
 	public void stop() {
