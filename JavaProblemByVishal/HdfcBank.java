@@ -1,4 +1,4 @@
-
+// how can we achived Encapsulation in java ? example code
 public class HdfcBank
 {
 private String accountHolder;
