@@ -1,3 +1,4 @@
+//Write a Java program to check if the given number is a prime number?
 public class CheckPrimeNumber
 {
   public void isPrimeNumberPresent(int num)
