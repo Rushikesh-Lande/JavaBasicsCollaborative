@@ -1,4 +1,4 @@
-//How can you find the factorial of an integer in Java using recursion?
+//How can you find the factorial of an integer in Java using recursion ??
 
 public class Factorial{
 public int fact(int n){
