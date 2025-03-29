@@ -1,28 +1,41 @@
 // Check two string is anagram or not ?
-import java.util.Arrays;
+
 public class StringAnagram
 {
 public boolean isAnagram(String s1, String s2)
 {
- if(s1.length() != s2.length())
- {
-   return false;
- }else{
-  	char[] ch1 = s1.toLowerCase().toCharArray();
-	char[] ch2 = s1.toLowerCase().toCharArray();
-        Arrays.sort(ch1);
-	Arrays.sort(ch2);
+ 
+   s1 =s1.toLowerCase();
+   s2 =s2.toLowerCase();
+            
+            int sumofchofs1=0;
+            int sumofchofs2=0;
 
-     return Arrays.equals(ch1,ch2);      }
+	    for(int i=0;i<s1.length();i++)
+	    {	  
+              char ch1 =s1.charAt(i);
+              sumofchofs1+=(int)ch1;
+            }
+  
+            for(int i=0;i<s2.length();i++)
+	    {	  
+              char ch2 =s2.charAt(i);
+              sumofchofs2+=(int)ch2;
+            }
+            int sub = sumofchofs1-sumofchofs2;
+           
+          return sub == 0;
 }
 
 public static void main(String[] args)
 {
  StringAnagram obj = new StringAnagram();
- Boolean result=obj.isAnagram("listen", "Silent");
-
- if(result == true)
-	{System.out.println("IsAnagram");}
-	else{System.out.println("NotAnagram");}
+ boolean result =obj.isAnagram("listen","Silent");
+           if(result)
+            {
+              System.out.println("isAnagram");
+            }else{
+              System.out.println("Strings are notAnagram");
+            }
 }
 }
