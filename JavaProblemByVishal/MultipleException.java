@@ -9,10 +9,10 @@ public static void main (String[] args)
  try(Scanner s = new Scanner(System.in);)
 {
  System.out.println("Enter the first Number (Divident) : ");
- double num1 = s.nextDouble();
+ int num1 = s.nextInt();
  System.out.println("Enter the Second Number (Divisor) : ");
- double num2 = s.nextDouble();
- double result = num1/num2; 
+ int num2 = s.nextInt();
+ int result = num1/num2; 
  System.out.println(result);
 }catch(ArithmeticException | InputMismatchException ob)
 {
